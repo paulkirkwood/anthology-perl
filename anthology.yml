@@ -1,0 +1,7 @@
+name: Anthology
+Model::DB:
+  schema_class: Anthology::Schema
+  connect_info:
+    dsn: dbi:Pg:dbname=metal_dev
+    user: metal_dev
+    password: metal_dev
